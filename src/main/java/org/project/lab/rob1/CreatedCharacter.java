@@ -55,7 +55,7 @@ public class CreatedCharacter {
                 number *= i;
             }
 
-            System.out.print("Your answer: ");
+            System.out.print("Your answer ☞  ");
             int answer = scanner.nextInt();
             if (answer == number) {
                 System.out.println("Congratulations you won!!!\nYou have gained + 10 experience");

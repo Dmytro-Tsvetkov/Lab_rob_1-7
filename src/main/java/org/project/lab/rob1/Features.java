@@ -30,8 +30,6 @@ public class Features {
         else {
             rank = 2;
         }
-
-
         return rank;
     }
 

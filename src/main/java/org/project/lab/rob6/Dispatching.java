@@ -17,15 +17,15 @@ public class Dispatching {
 
     public void start() {
         System.out.println("⚔Greetings, warrior \uD83D\uDC4B \nSign in \uD83D\uDC48 \uD83D\uDEE1 \uD83D\uDC49Registration");
-        System.out.print("☞");
+        System.out.print("☞ ");
         String choice = scanner.nextLine();
 
         System.out.println("Enter your name");
-        System.out.print("☞");
+        System.out.print("☞ ");
         String tempName = scanner.nextLine();
 
         System.out.println("Enter your password");
-        System.out.print("☞");
+        System.out.print("☞ ");
         int tempPassword = scanner.nextInt();
 
         workerDB.logOrReg(choice, tempName, tempPassword);

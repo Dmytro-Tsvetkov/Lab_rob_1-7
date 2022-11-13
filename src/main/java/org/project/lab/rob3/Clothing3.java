@@ -21,7 +21,6 @@ public class Clothing3 {
     private void clothingCheck() {
         clothing2.clothing.clothingCheck();
     }
-
     public void getClothingCheck() {
         clothingCheck();
     }
@@ -29,7 +28,6 @@ public class Clothing3 {
     private int styleAssessment() {
         return clothing2.clothing.styleAssessment();
     }
-
     public int getStyleAssessment() {
         return styleAssessment();
     }

@@ -40,6 +40,7 @@ public class Items5 {
             System.out.println("Name skill:" + i.getNameSkills() + " damage: " + i.getDamage());
         }
         System.out.println("A monster wolf jumped out in front of you what do you attack it with?");
+        System.out.print("☞ ");
         String tempChoice = scanner.nextLine();
 
         if (tempChoice.toLowerCase().equals("fire balls") || tempChoice.toLowerCase().equals("blade")) {

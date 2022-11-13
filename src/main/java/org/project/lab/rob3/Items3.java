@@ -10,7 +10,7 @@ public class Items3 {
         this.choice2 = choice2;
     }
 
-    void Access(Features r){
+    public void Access(Features r){
         Subject subject = new Subject();
         subject.subjectAccessCheck(r);
     }
