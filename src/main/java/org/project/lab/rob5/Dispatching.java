@@ -1,4 +1,4 @@
-package org.project.lab.rob6;
+package org.project.lab.rob5;
 
 import org.project.databases.WorkerDB;
 
@@ -27,8 +27,13 @@ public class Dispatching {
         System.out.println("Enter your password");
         System.out.print("☞ ");
         int tempPassword = scanner.nextInt();
+        if (choice.toLowerCase().equals("sign in")) {
+            workerDB.logOrReg(tempName, tempPassword);
+        } else if (choice.toLowerCase().equals("registration")) {
+            workerDB.registration(tempName, tempPassword);
+            workerDB.logOrReg(tempName, tempPassword);
+        }
 
-        workerDB.logOrReg(choice, tempName, tempPassword);
     }
 
     public void story() {
