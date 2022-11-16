@@ -2,11 +2,10 @@ package org.project.lab.rob6;
 
 import org.project.lab.rob5.Clothing5;
 import org.project.lab.rob5.Items5;
-import org.project.lab.rob5.Skills;
 
 import java.util.Scanner;
 
-public class Clothing6 implements Statistic{
+public class Clothing6 implements Task {
 
     public Clothing5 clothing5;
 

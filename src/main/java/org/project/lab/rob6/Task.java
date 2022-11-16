@@ -1,6 +1,6 @@
 package org.project.lab.rob6;
 
-public interface Statistic {
+public interface Task {
 
     void task3();
 
