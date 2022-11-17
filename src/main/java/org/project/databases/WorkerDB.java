@@ -60,7 +60,7 @@ public class WorkerDB {
 
     }
 
-    public void logOrReg(String tempName, int tempPassword) {
+    public void singIn(String tempName, int tempPassword) {
 
             try {
                 Statement statement = connectionDB.getConnectionDB().createStatement();
